@@ -1,0 +1,9 @@
+reference,prediction,n,alert_median,drowsy_median,frac_as_predicted,p_raw
+per-recording P90 (A3),P1 blink rate,58,13.7436,20.8199,0.759,7.393294934090678e-06
+subject alert P90 (pipeline),P1 blink rate,58,13.7436,21.6195,0.741,1.162274611175466e-05
+per-recording P90 (A3),P2 blink duration,58,0.5339,0.5719,0.741,1.3402302119651257e-05
+subject alert P90 (pipeline),P2 blink duration,58,0.5339,0.6004,0.81,1.3282549280098466e-06
+per-recording P90 (A3),P3 opening velocity,58,1.5377,1.5583,0.5,0.36231533007165506
+subject alert P90 (pipeline),P3 opening velocity,58,1.5377,1.3652,0.672,0.004191156509949119
+per-recording P90 (A3),control: AVR (invariant),58,0.2973,0.317,0.741,0.0019154098167274418
+subject alert P90 (pipeline),control: AVR (invariant),58,0.2973,0.3177,0.707,0.000964959203299981

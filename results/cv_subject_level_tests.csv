@@ -1,0 +1,6 @@
+comparison,n_subjects,delta_acc,ci_lo_acc,ci_hi_acc,p_perm_acc,subjects_favouring_acc,subjects_tied_acc,delta_mae,ci_lo_mae,ci_hi_mae,p_perm_mae,subjects_favouring_mae,subjects_tied_mae,p_holm_acc,p_holm_mae
+published/lstm - corrected/attn,60,0.0583,0.0111,0.1056,0.0243,21,28,-0.2068,-0.3087,-0.1065,0.0002,40,0,0.1215,0.001
+published/lstm - published/attn,60,0.0333,-0.0181,0.0848,0.2381,21,22,-0.1097,-0.2102,-0.0099,0.0372,39,0,0.8344,0.118
+published/lstm - published/fc,60,0.0292,-0.0125,0.0708,0.2086,19,29,-0.0375,-0.1196,0.0429,0.3949,33,0,0.8344,0.5058
+published/lstm - corrected/fc,60,0.0208,-0.0194,0.0625,0.3639,17,28,-0.0755,-0.1406,-0.0091,0.0295,34,0,0.8344,0.118
+published/lstm - corrected/lstm,60,0.0111,-0.0333,0.0583,0.731,15,31,-0.04,-0.1094,0.0279,0.2529,33,0,0.8344,0.5058

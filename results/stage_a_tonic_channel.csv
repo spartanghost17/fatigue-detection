@@ -1,0 +1,3 @@
+channel,n_subjects,alert_median,drowsy_median,rel_change,frac_lower_when_drowsy,p
+before stage A (subject-anchored),58,0.93,0.8446,-0.0879,0.845,4.321418686898896e-07
+after stage A (median ear_cal),58,0.93,0.9015,-0.0327,0.828,9.60992206965192e-08

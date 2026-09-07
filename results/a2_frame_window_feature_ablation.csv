@@ -1,0 +1,10 @@
+features,n_feats,seed,epochs,binary_video_auc,final_gap,n_videos
+ear_cal only (per-video open-eye normalised),1,42,20,0.9697,-0.0305,23
+ear_cal only (per-video open-eye normalised),1,43,40,0.9697,-0.0298,23
+ear_cal only (per-video open-eye normalised),1,44,29,0.9697,-0.036,23
++ mar (raw scale),2,42,20,0.9167,0.0491,23
++ mar (raw scale),2,43,20,0.9242,0.045,23
++ mar (raw scale),2,44,25,0.9394,0.0671,23
++ head_drop (raw camera geometry),3,42,38,0.8788,0.1833,23
++ head_drop (raw camera geometry),3,43,40,0.8485,0.1887,23
++ head_drop (raw camera geometry),3,44,19,0.8561,0.191,23

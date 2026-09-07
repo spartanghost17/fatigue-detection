@@ -1,0 +1,19 @@
+clip,true,subject,has_enrolment,in_protocol_verdict,in_protocol_score,in_protocol_blinks,population_verdict,population_score,population_blinks,population_purity,population_n_seq,in_protocol_purity,in_protocol_n_seq,reason
+s01_alert_200s,alert,01,False,no enrolment,,,alert,2.389,115.0,0.86,43.0,,,
+s01_drowsy_145s,drowsy,01,False,no enrolment,,,alert,2.872,82.0,0.815,27.0,,,
+s01_lowvig_300s,lowvig,01,False,no enrolment,,,alert,1.871,65.0,1.0,18.0,,,
+s06_alert_55s,alert,06,True,alert,1.809,62.0,alert,1.724,59.0,1.0,15.0,1.0,17.0,
+s06_drowsy_145s,drowsy,06,True,alert,1.801,56.0,alert,1.713,53.0,1.0,12.0,1.0,14.0,
+s06_lowvig_20s,lowvig,06,True,alert,1.559,61.0,alert,2.005,60.0,1.0,16.0,1.0,16.0,
+s13_alert_0s,alert,13,True,refused,,,refused,,,,,,,Only 29 blinks retrieved from 3.0 min of footage
+s13_drowsy_300s,drowsy,13,True,drowsy,8.724,44.0,lowvig,5.927,79.0,0.64,25.0,1.0,8.0,
+s13_lowvig_325s,lowvig,13,True,drowsy,8.16,53.0,lowvig,5.398,52.0,0.833,12.0,1.0,12.0,
+s14_alert_90s,alert,14,True,alert,2.011,43.0,alert,1.873,43.0,1.0,7.0,1.0,7.0,
+s14_drowsy_315s,drowsy,14,True,alert,3.051,65.0,alert,2.568,65.0,0.889,18.0,0.722,18.0,
+s14_lowvig_290s,lowvig,14,True,drowsy,7.333,98.0,alert,3.307,113.0,0.548,42.0,0.743,35.0,
+s34_alert_0s,alert,34,True,refused,,,refused,,,,,,,Only 6 blinks retrieved from 2.8 min of footage
+s34_drowsy_230s,drowsy,34,True,drowsy,8.224,78.0,alert,2.03,80.0,1.0,26.0,1.0,25.0,
+s34_lowvig_110s,lowvig,34,True,drowsy,6.777,46.0,alert,2.425,46.0,1.0,9.0,0.667,9.0,
+s37_alert_140s,alert,37,True,refused,,,refused,,,,,,,Only 27 blinks retrieved from 3.0 min of footage
+s37_drowsy_160s,drowsy,37,True,alert,3.305,76.0,lowvig,3.572,77.0,0.583,24.0,0.5,24.0,
+s37_lowvig_225s,lowvig,37,True,drowsy,6.758,37.0,refused,,,,,0.75,4.0,Only 24 blinks retrieved from 3.0 min of footage

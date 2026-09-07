@@ -1,0 +1,8 @@
+comparison,delta,se,se_nb,t_p,t_p_nb,folds_won,n_folds,mean_VA
+published/lstm - baseline,0.0576,0.0578,0.0868,0.3755,0.5429,4,5,0.6144
+corrected/lstm - baseline,0.0493,0.0656,0.0984,0.4941,0.6427,4,5,0.6061
+corrected/fc - baseline,0.0383,0.0543,0.0814,0.5197,0.6629,4,5,0.5951
+MEAN of all configurations - baseline,0.0327,0.0494,0.0741,0.5442,0.6818,4,5,0.5895
+published/fc - baseline,0.0274,0.0428,0.0642,0.5575,0.6919,4,5,0.5842
+published/attn - baseline,0.0217,0.0389,0.0584,0.606,0.7284,4,5,0.5786
+corrected/attn - baseline,0.002,0.0458,0.0687,0.9675,0.9783,3,5,0.5588

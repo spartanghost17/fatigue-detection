@@ -1,0 +1,10 @@
+source,task,VA,BSA,BSRE,VRE,protocol
+Ghoddoosian et al. (2019) - HM-LSTM,3-class,0.652,0.54,1.9,1.14,5-fold subject-wise CV; test fold scored every epoch
+Ghoddoosian et al. (2019) - plain LSTM,3-class,0.614,0.528,3.42,2.68,"same paper, same protocol; our architecture match"
+Ghoddoosian et al. (2019) - no temporal model,3-class,0.57,0.52,2.85,2.17,same paper; fully-connected ablation
+Human observers (20 raters),3-class,0.578,,,2.01,"watched full unlabelled videos, free to rewind"
+"THIS WORK - published/lstm, subject-wise CV",3-class,0.614,0.552,1.395,0.952,"5-fold CV, validation split inside each fold, test scored once"
+"THIS WORK - published/lstm, fixed split",3-class,0.657,0.602,2.532,2.256,"single held-out split, mean of 3 seeds"
+"this work - binary read-out, fixed split, mean of seeds",binary AUC,0.881,,,,"same continuous score, alert vs drowsy videos only"
+"THIS WORK - binary read-out, CHECKPOINT SEED ONLY",binary AUC,0.879,,,,"seed 42; 95% bootstrap CI over test videos [0.669, 1.000] - this is the shipped checkpoint"
+"this work - alert vs not-alert accuracy, checkpoint seed",binary accuracy,0.829,,,,"three-class verdicts collapsed, all 35 test videos; best constant answer scores 0.657"
